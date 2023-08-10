@@ -1,0 +1,100 @@
+{
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "商城"
+      }
+    },{
+		"path": "pages/product/index",
+		"style": {
+			"navigationBarTitleText": "商品详情"
+		}
+	},
+    {
+      "path": "pages/account/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/login/login/index",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    // {
+    //   "path": "pages/login/reg/index",
+    //   "style": {
+    //     "navigationBarTitleText": "注册"
+    //   }
+    // },
+    // {
+    //   "path": "pages/login/forget-start/index",
+    //   "style": {
+    //     "navigationBarTitleText": "验证身份"
+    //   }
+    // },
+    // {
+    //   "path": "pages/login/forget-end/index",
+    //   "style": {
+    //     "navigationBarTitleText": "忘记密码"
+    //   }
+    // },
+    {
+      "path": "pages/login/blog/index",
+      "style": {
+        "navigationBarTitleText": "软件用户协议"
+      }
+    }
+  ],
+  // "subPackages": [{
+  //   "root": "packageaccount",
+  //   "pages": [
+  //       {
+  //         "path": "pages/account/index",
+  //         "style": {
+  //           "navigationBarTitleText": "我的"
+  //         }
+  //       }
+  //     ]
+  //   }],
+  // "preloadRule": {
+  // 	"pages/home/index": {
+  // 		"network": "all",
+  // 		"packages": ["packageaccount"]
+  // 	}
+  // },
+  "tabBar": {
+    "list": [
+	  {
+	  	"pagePath": "pages/home/index",
+	  	"iconPath": "static/tabbar/1.png",
+	  	"selectedIconPath": "static/tabbar/1s.png",
+	  	"text": "商城"
+	  }, {
+	  	"pagePath": "pages/account/index",
+	  	"iconPath": "static/tabbar/3.png",
+	  	"selectedIconPath": "static/tabbar/3s.png",
+	  	"text": "我的"
+	  }
+    ]
+  },"globalStyle": {
+  	"navigationBarTextStyle": "white",
+  	"navigationBarTitleText": "商城",
+  	"navigationBarBackgroundColor": "#E42417",
+  	"backgroundColor": "#F8F8F8"
+  },
+  "usingComponts": true,
+  "condition": { //模式配置，仅开发期间生效
+    "current": 0, //当前激活的模式(list 的索引项)
+    "list": [{
+      "name": "APP", //模式名称
+      "path": "pages/home/index", //启动页面
+      "query": "" //启动参数
+    }]
+  }
+}

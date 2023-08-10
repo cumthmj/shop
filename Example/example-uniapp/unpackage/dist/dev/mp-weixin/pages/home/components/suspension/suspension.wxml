@@ -1,0 +1,1 @@
+<view class="suspension data-v-490d6ac6"><view class="bottom data-v-490d6ac6"><view data-event-opts="{{[['tap',[['goTop',['$event']]]]]}}" class="ontop data-v-490d6ac6" style="{{('opacity: '+(scrollShow==true?'1':'0'))}}" bindtap="__e"><image class="top_img data-v-490d6ac6" src="/static/img/TOP.png"></image></view></view></view>

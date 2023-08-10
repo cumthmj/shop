@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/product/index",
+    "pages/account/index",
+    "pages/login/login/index",
+    "pages/login/blog/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "商城",
+    "navigationBarBackgroundColor": "#E42417",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/tabbar/1.png",
+        "selectedIconPath": "static/tabbar/1s.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/account/index",
+        "iconPath": "static/tabbar/3.png",
+        "selectedIconPath": "static/tabbar/3s.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

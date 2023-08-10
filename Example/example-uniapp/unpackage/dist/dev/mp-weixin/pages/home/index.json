@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "商城",
+  "usingComponents": {
+    "u-sticky": "/node-modules/uview-ui/components/u-sticky/u-sticky",
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "u-dropdown": "/node-modules/uview-ui/components/u-dropdown/u-dropdown",
+    "u-dropdown-item": "/node-modules/uview-ui/components/u-dropdown-item/u-dropdown-item",
+    "u-tag": "/node-modules/uview-ui/components/u-tag/u-tag",
+    "product": "/pages/home/components/product/product",
+    "suspension": "/pages/home/components/suspension/suspension"
+  }
+}
